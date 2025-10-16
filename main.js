@@ -1,4 +1,4 @@
-const SHEET_URL = 'https://script.google.com/macros/s/AKfycbxfQKEKOKtRdw_0QA2ZQU6Ib3v1SOAed571ZX9Kf1nj8PZBDsnEHxLTzR0UpS-p7np8-g/exec';
+const SHEET_URL = 'https://script.google.com/macros/s/AKfycbwyEFXHjpH2jJHIHSzvyd6ruKyDuOirKTj9JS3_e7SysYnmZeUnUTVNgEEveeqSxK7QZA/exec';
 // Create neon text effect
 function createNeonText(text, container) {
     container.innerHTML = '';
@@ -256,7 +256,7 @@ document.addEventListener('keydown', (e) => {
 document.getElementById('wishForm').addEventListener('submit', async (e) => {
     e.preventDefault();
 
-    const SHEET_URL = 'https://script.google.com/macros/s/AKfycbxfQKEKOKtRdw_0QA2ZQU6Ib3v1SOAed571ZX9Kf1nj8PZBDsnEHxLTzR0UpS-p7np8-g/exec'; // <--- THAY URL CỦA BẠN VÀO ĐÂY
+    const SHEET_URL = 'https://script.google.com/macros/s/AKfycbwyEFXHjpH2jJHIHSzvyd6ruKyDuOirKTj9JS3_e7SysYnmZeUnUTVNgEEveeqSxK7QZA/exec; // <--- THAY URL CỦA BẠN VÀO ĐÂY
 
     const senderName = document.getElementById('senderName').value.trim();
     const message = document.getElementById('wishMessage').value.trim();
@@ -308,7 +308,7 @@ document.getElementById('wishForm').addEventListener('submit', async (e) => {
 });
 
 async function loadPublicWishes() {
-    const SHEET_URL = 'https://script.google.com/macros/s/AKfycbxfQKEKOKtRdw_0QA2ZQU6Ib3v1SOAed571ZX9Kf1nj8PZBDsnEHxLTzR0UpS-p7np8-g/exec';
+    const SHEET_URL = 'https://script.google.com/macros/s/AKfycbwyEFXHjpH2jJHIHSzvyd6ruKyDuOirKTj9JS3_e7SysYnmZeUnUTVNgEEveeqSxK7QZA/exec';
     const container = document.getElementById('wishesContainer');
 
     // 1️⃣ — Hiển thị dữ liệu có sẵn trong cache (nếu có)
